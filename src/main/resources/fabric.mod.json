@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "gunmod",
+	"version": "${version}",
+	"name": "Gun Mod",
+	"description": "GUNS SHOOT PEOPLE HELL YEAH BRUH!",
+	"authors": [
+		"Shoving"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/gunmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.shoving.gunmod.GunMod"
+		],
+		"client": [
+			"net.shoving.gunmod.GunModClient"
+		],
+		"fabric-datagen": [
+			"net.shoving.gunmod.GunModDataGenerator"
+		]
+	},
+	"mixins": [
+		"gunmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
