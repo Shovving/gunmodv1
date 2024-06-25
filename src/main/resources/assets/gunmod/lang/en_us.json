@@ -1,0 +1,16 @@
+{
+  "item.gunmod.steel": "Steel Ingot",
+  "item.gunmod.steel_mixture": "Steel Mixture",
+  "item.gunmod.steel_bolt": "Steel Bolt",
+  "item.gunmod.steel_screw": "Steel Screw",
+  "item.gunmod.steel_rod": "Steel Rod",
+  "item.gunmod.steel_gear": "Steel Gear",
+
+  "block.gunmod.gunpowder_block": "Gunpowder Block",
+  "block.gunmod.sound_block": "Sound Block",
+
+
+  "item.gunmod.metal_detector": "Metal Detector",
+
+  "itemgroup.guns": "Gun Mod"
+}

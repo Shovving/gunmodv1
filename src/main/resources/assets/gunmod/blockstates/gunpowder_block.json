@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "gunmod:block/gunpowder_block"
+    }
+  }
+}

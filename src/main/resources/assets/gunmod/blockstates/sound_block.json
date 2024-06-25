@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "gunmod:block/sound_block"
+    }
+  }
+}
