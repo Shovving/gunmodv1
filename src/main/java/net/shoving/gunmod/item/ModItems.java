@@ -3,8 +3,7 @@ package net.shoving.gunmod.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -18,6 +17,19 @@ public class ModItems {
     // Custom Tools
     public static final Item METALDETECTOR = registerItem("metal_detector",
             new MetalDetectorItem(new FabricItemSettings().maxDamage(24)));
+    public static final Item Glock = registerItem("glock_item",
+            new Item(new FabricItemSettings().maxCount(1)));
+    // Steel Tools
+    public static final Item STEEL_PICKAXE = registerItem("steel_pickaxe",
+            new PickaxeItem(ModToolMaterial.STEEL, 2, 2, new FabricItemSettings()));
+    public static final Item STEEL_AXE = registerItem("steel_axe",
+            new AxeItem(ModToolMaterial.STEEL, 2, 2, new FabricItemSettings()));
+    public static final Item STEEL_SHOVEL = registerItem("steel_shovel",
+            new ShovelItem(ModToolMaterial.STEEL, 2, 2, new FabricItemSettings()));
+    public static final Item STEEL_SWORD = registerItem("steel_sword",
+            new SwordItem(ModToolMaterial.STEEL, 2, 2, new FabricItemSettings()));
+    public static final Item STEEL_HOE = registerItem("steel_hoe",
+            new HoeItem(ModToolMaterial.STEEL, 2, 2, new FabricItemSettings()));
 
     // Steel Items
     public static final Item STEEL = registerItem("steel", new Item(new FabricItemSettings()));

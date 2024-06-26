@@ -9,8 +9,13 @@
   "block.gunmod.gunpowder_block": "Gunpowder Block",
   "block.gunmod.sound_block": "Sound Block",
 
+  "item.gunmod.steel_pickaxe": "Steel Pickaxe",
+  "item.gunmod.steel_axe": "Steel Axe",
+  "item.gunmod.steel_shovel": "Steel Shovel",
+  "item.gunmod.steel_sword": "Steel Sword",
+  "item.gunmod.steel_hoe": "Steel Hoe",
 
   "item.gunmod.metal_detector": "Metal Detector",
-
+  "item.gunmod.glock_item": "Glock",
   "itemgroup.guns": "Gun Mod"
 }

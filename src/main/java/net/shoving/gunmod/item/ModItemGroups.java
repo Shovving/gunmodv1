@@ -22,6 +22,13 @@ public class ModItemGroups {
 
                         // Custom Tools
                         entries.add(ModItems.METALDETECTOR);
+                        entries.add(ModItems.Glock);
+                        // Steel Tools
+                        entries.add(ModItems.STEEL_PICKAXE);
+                        entries.add(ModItems.STEEL_AXE);
+                        entries.add(ModItems.STEEL_SHOVEL);
+                        entries.add(ModItems.STEEL_SWORD);
+                        entries.add(ModItems.STEEL_HOE);
                         // Steel Items
                         entries.add(ModItems.STEEL);
                         entries.add(ModItems.STEELMIX);

@@ -1,0 +1,19 @@
+// 1.20.1	2024-06-26T00:55:57.5051123	Gun Mod/Model Definitions
+453d055e061c59a946248b430f1f20f7d97dd35f assets\gunmod\blockstates\sound_block.json
+c503e298155682ef390e94b64f324c920d5dc512 assets\gunmod\models\item\steel_bolt.json
+73ba58932430ab2020eff3ff17c798085c862a7f assets\gunmod\models\item\steel_screw.json
+f3be24ff5a45fa569d55eb1bcf3e7953be944fdd assets\gunmod\models\block\gunpowder_block.json
+919f603afe41336d3d4ebc0f2af9a4c96d52b7ed assets\gunmod\models\item\gunpowder_block.json
+b9540a4a3542ea73bfe521714eb527b66a4d6303 assets\gunmod\models\item\metal_detector.json
+bf9e5c803a9aa2fba44d443868e9e0f2626f7377 assets\gunmod\models\item\steel_sword.json
+27a20a2ab19a09378b181e1ec516661504fff057 assets\gunmod\models\item\steel.json
+351485672063ee1e6e9ed12bd3538d3d1605866d assets\gunmod\models\item\steel_hoe.json
+204f31b7a619f1665d763b3f0cb8d8f59ae1a229 assets\gunmod\models\item\steel_axe.json
+3e259367a6eaf006fe0f2af4f5c207fff00edcbe assets\gunmod\models\item\steel_pickaxe.json
+7451fb7dd230b2dd1f843caf4038a9ce8fa65f2e assets\gunmod\models\item\steel_shovel.json
+c0b9ad2cd01b54af2123904eeda9882e23761174 assets\gunmod\blockstates\gunpowder_block.json
+16fe50cafdd3be43a257207a6d56fc98bf57619f assets\gunmod\models\item\sound_block.json
+e608f034d9774d5bfb3b04371df4be2984908753 assets\gunmod\models\item\steel_gear.json
+daab5b652f557000bc9644b56f2bf42445d92814 assets\gunmod\models\block\sound_block.json
+fa545d5f6c9f29af2e6237286708e0d3277978bf assets\gunmod\models\item\steel_mixture.json
+a20523f97c84e17a922c51e58fc8ea27e2c677dd assets\gunmod\models\item\steel_rod.json
