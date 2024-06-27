@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "gunmod:steel_helmet",
+    "gunmod:steel_chestplate",
+    "gunmod:steel_leggings",
+    "gunmod:steel_boots"
+  ]
+}

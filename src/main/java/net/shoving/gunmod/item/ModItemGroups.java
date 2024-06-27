@@ -29,6 +29,11 @@ public class ModItemGroups {
                         entries.add(ModItems.STEEL_SHOVEL);
                         entries.add(ModItems.STEEL_SWORD);
                         entries.add(ModItems.STEEL_HOE);
+                        // Steel Armor
+                        entries.add(ModItems.STEEL_HELMET);
+                        entries.add(ModItems.STEEL_CHESTPLATE);
+                        entries.add(ModItems.STEEL_LEGGINGS);
+                        entries.add(ModItems.STEEL_BOOTS);
                         // Steel Items
                         entries.add(ModItems.STEEL);
                         entries.add(ModItems.STEELMIX);

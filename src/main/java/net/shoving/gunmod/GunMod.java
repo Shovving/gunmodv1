@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.shoving.gunmod.block.ModBlocks;
 import net.shoving.gunmod.item.ModItemGroups;
 import net.shoving.gunmod.item.ModItems;
+import net.shoving.gunmod.util.ModLootTableModifiers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,5 +21,7 @@ public class GunMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModLootTableModifiers.modifyLootTables();
 	}
 }

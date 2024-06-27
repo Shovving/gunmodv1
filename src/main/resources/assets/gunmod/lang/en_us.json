@@ -15,6 +15,11 @@
   "item.gunmod.steel_sword": "Steel Sword",
   "item.gunmod.steel_hoe": "Steel Hoe",
 
+  "item.gunmod.steel_helmet": "Steel Helmet",
+  "item.gunmod.steel_chestplate": "Steel Chestplate",
+  "item.gunmod.steel_leggings": "Steel Leggings",
+  "item.gunmod.steel_boots": "Steel Boots",
+
   "item.gunmod.metal_detector": "Metal Detector",
   "item.gunmod.glock_item": "Glock",
   "itemgroup.guns": "Gun Mod"

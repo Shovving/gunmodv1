@@ -9,6 +9,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.shoving.gunmod.GunMod;
 import net.shoving.gunmod.item.custom.MetalDetectorItem;
+import net.shoving.gunmod.item.custom.ModArmorItem;
 
 public class ModItems {
     // All new added modded Items.
@@ -30,6 +31,15 @@ public class ModItems {
             new SwordItem(ModToolMaterial.STEEL, 2, 2, new FabricItemSettings()));
     public static final Item STEEL_HOE = registerItem("steel_hoe",
             new HoeItem(ModToolMaterial.STEEL, 2, 2, new FabricItemSettings()));
+    // Steel Armor
+    public static final Item STEEL_HELMET = registerItem("steel_helmet",
+            new ArmorItem(ModArmorMaterial.STEEL, ArmorItem.Type.HELMET, new FabricItemSettings()));
+    public static final Item STEEL_CHESTPLATE = registerItem("steel_chestplate",
+            new ModArmorItem(ModArmorMaterial.STEEL, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
+    public static final Item STEEL_LEGGINGS = registerItem("steel_leggings",
+            new ArmorItem(ModArmorMaterial.STEEL, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
+    public static final Item STEEL_BOOTS = registerItem("steel_boots",
+            new ArmorItem(ModArmorMaterial.STEEL, ArmorItem.Type.BOOTS, new FabricItemSettings()));
 
     // Steel Items
     public static final Item STEEL = registerItem("steel", new Item(new FabricItemSettings()));
